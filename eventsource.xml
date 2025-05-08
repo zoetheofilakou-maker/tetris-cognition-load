@@ -1,0 +1,34 @@
+<EventSource Id="PygameEventSourceId" Version="1" Name="PygameEvents">
+  <Sample Id="StartGameSample" Name="StartGame">
+    <Field Id="StartGame" Range="Variable"/>
+  </Sample>>
+  <Sample Id="GameOver" Name="GameOver">
+    <Field Id="Description" Range="Variable"/>
+  </Sample>
+  <Sample Id="LineClear" Name="LineClear">
+    <Field Id="Description" Range="Variable"/>
+  </Sample>
+  <Sample Id="LineClears" Name="LineClears">
+    <Field Id="TotalLines" Range="Variable"/>
+  </Sample>
+  <Sample Id="ScoreUpdate" Name="ScoreUpdate">
+    <Field Id="Score" Range="Variable"/>
+  </Sample>
+  <Sample Id="LevelUpdate" Name="LevelUpdate">
+    <Field Id="Level" Range="Variable"/>
+  </Sample>
+  <Sample Id="BaseLevel" Name="BaseLevel">
+    <Field Id="Description" Range="Variable"/>
+  </Sample>
+  <Sample Id="EasyLevel" Name="EasyLevel">
+    <Field Id="Description" Range="Variable"/>
+  </Sample>
+  <Sample Id="MediumLevel" Name="MediumLevel">
+    <Field Id="Description" Range="Variable"/>
+  </Sample>
+  <Sample Id="HardLevel" Name="HardLevel">
+    <Field Id="Description" Range="Variable"/>
+  </Sample>
+</EventSource>
+
+

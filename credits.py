@@ -1,0 +1,17 @@
+credits_text = [
+        ' In order of joining the project',
+        "",
+        "",
+        ' - Initial game code - ',
+        'Zoi Theofilakou',
+        "",
+        ' - Features and improvements - ',
+        'Anni Frilander',
+        "",
+        ' - Menu design & guide assets - ',  
+        'Tuuli Palomäki',
+        "",
+        ' - Refactoring & iMotions API integration - ',
+        'Samu Nordman',
+        "",
+    ]

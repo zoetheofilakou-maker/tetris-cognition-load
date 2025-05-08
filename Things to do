@@ -1,0 +1,71 @@
+
+
+----------------------------------    Q U E S T I O N S ?    ----------------------------------
+
+-- # write here:
+-- #    - things to ask
+-- #    - what ifs
+-- #    - possibilities
+
+- is there less of an error for the game setter if the code levels are in separate files versus setting a boolean at the beginning?
+- maybe turn blocks grey when game is over or time is over to have more clearer ending
+- move next-block-info to diffenet place, to see clearer if person is looking at it?
+
+----------------------------------    T O    D O    ----------------------------------
+
+---Functionality---
+
+◘ Change pygame to only accept arrowKey inputs to take care of accidental pressings + make processing speed faster (pygame.event.set_allowed([pygame.QUIT, pygame.UP,.....]))
+
+
+
+----------------------------------    B U G S    ----------------------------------
+
+◘ Resizing the screen while playing, will create empty space on the right side (not wanted, have to fix this)
+    (the size of data_surface and grid_surface compared to the window screen is the problem)
+
+
+----------------------------------    D O N E ----------------------------------
+1. Created a timer
+2. Created a visible timer for players to see how much time is left
+3. Created starting screen
+4. Changed timer to start when the starting screen has gone away
+5. Created ending screen
+6. Created instructions to the start screen
+7. Fixed crashing when certain block positions were against right wall
+8. Created a visible game_over_screen
+9. Fixed the game_over_screen to start right after blocks don''t fit
+10. Fixed timer in the game_over_screen view, so that the timer still shows timer continuity to the gamer
+11. Now the Find-Skill-Level Tetris-game will stop immediately after game over
+12. Added new event to control speed increasements
+13. Added a drop down feature, where the blocks drops all the way down without chance of position alterations
+14. Fixed a bug where the timer would continue to the negatives if player still waited at game_over_screen when time is over, game would only stop when player got out of the game_over_screen
+15. Fixed a bug where the block will immediately fall if player continues with key.down
+16. Added speed increasements after set amount of time and after set amount of line_clears
+17. Arrange code to have all the changeable variables at the beginning
+18. Added a surface to which to show total line_clears
+19. Added a boolean to control whether to show or not to show score, total_line_clears, next_block or timer
+20. Fixed the game_over_screen to show correctly timer_surfaces
+21. Added code to Base Level to collect and save data from each key.press and each time a new block is the going to be the current_block + also save the constant speed 1 time at the start
+22. Added code to Find Skill Level to collect and save data + fixed a couple bugs
+23. Added a separator for saved data
+22. Made timer to end at specific time but also before turning into end screen update the screen for the last times so players don''t get annoyed that it still shows 1s left in the timer
+23. To the Base Level, added collections of all wanted data
+24. Added data saving functions to Find Skill level
+25. Added more data saving functions to Find Skill level
+26. Fixed the speed increasement by time to start after a new block not during current block
+27. Fixed separated total game time and current game time
+28. Added level notices for level changes: medium and hard
+29. Added easy level notification
+30. Fixed game ending event
+31. Added new code files for game levels: Easy, Medium and Hard
+32. Added quit data
+33. Added responsive starting screen to each code
+34. Added Base Level''s right side game data responsiveness
+35. Added Base Level''s responsiveness during start screen, game play end screens (missing proper alignments for end screen texts)
+36. Centered data text ( score, line_clears, timer)
+37. Fixed the slowness of fast dropping blocks
+38. Everything is responsive in Base Level -game (still need to fix how some of the responsiveness works)
+39. fixed points to count every time block stops moving not only when downKey has pressed
+40. Removed, cleaned and commented code
+41. Game now runs in single window.
