@@ -61,9 +61,9 @@ All messages follow iMotions format (`M;1;...` or `M;2;...`) and are sent to loc
 
 ##  6. Testing & Fixes
 
-* ✅ Fixed: `StartGame` not appearing → added call in `main.py`
-* ✅ Added: `from api import send_event_marker` to import properly
-* ✅ Verified: Markers show live in iMotions Sensor Preview
+* Fixed: `StartGame` not appearing → added call in `main.py`
+* Added: `from api import send_event_marker` to import properly
+* Verified: Markers show live in iMotions Sensor Preview
 
 ---
 
