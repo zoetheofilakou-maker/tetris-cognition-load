@@ -1,7 +1,7 @@
 # Weekly Research Log – May 8, 2025
 
 ## What is done
-- Replaced old GitHub repo with updated sandbox version
+
 - Integrated high-level event marker functions in `api.py`
 - Used UDP protocol to send real-time markers like `StartGame`, `LineClear`, and `GameOver`
 - Fixed marker display issues in iMotions (e.g., `StartGame` not appearing)
@@ -11,6 +11,7 @@
 - Still troubleshooting why some markers don’t show in CSV export
 
 ## Next Steps
+- Replaced old GitHub repo with updated sandbox version
 - Create clean export profile in iMotions
 
 
