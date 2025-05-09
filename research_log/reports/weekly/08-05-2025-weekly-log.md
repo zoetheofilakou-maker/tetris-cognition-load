@@ -42,4 +42,4 @@
 ---
 
 Notes:
-Everything is now pushed to: https://github.com/ZoiTheofilakou/Tetris_test
+Everything is now pushed to: https://github.com/ZoiTheofilakou/TetrisCognitionLab.git
