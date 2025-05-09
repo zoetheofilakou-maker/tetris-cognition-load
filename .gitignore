@@ -3,6 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# VSCode settings
+.vscode/
+
+# Log or backup files (if any)
+*.log
+*.tmp
+
+# Windows system files
+Thumbs.db
+
+
 # C extensions
 *.so
 
